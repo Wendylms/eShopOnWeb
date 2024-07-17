@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-wendy-
-  LOCATION: Southeast Asia
+  LOCATION: southeastasia
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 76d6ce62-39dc-4139-ae66-3f36f52503e9
   WEBAPP-NAME: eshoponweb-webapp-Wendylms
